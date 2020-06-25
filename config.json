@@ -1,0 +1,27 @@
+{
+	"ws": {
+		"porta": 80
+	},
+	"balancas": [
+		{
+			"nome": "portaria",
+			"conexao" : {
+				"tipo": "SERIAL",
+				"porta": "/dev/ttyUSB0",
+				"baudRate": 2400,
+				"dataBits": 8,
+				"parity": "none",
+				"stopBits": 1,
+				"flowControl": false,
+				"timeout": 10000
+			},
+			"tratamento": {
+				"regExp": "\u0001 {0,7}(?<liquido>[0-9\\.]{0,7}).(?<estavel>.)\u0002",
+				"buffer": 22,
+				"multiplicador": 1,
+				"estavel": "E",
+				"limite": 200
+			}
+		}
+	]
+}

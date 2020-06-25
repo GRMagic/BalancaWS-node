@@ -1,0 +1,1009 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'serialport' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 verbose cache add [ 'serialport', null ]
+5 verbose cache add name=undefined spec="serialport" args=["serialport",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'serialport',
+6 verbose parsed url   path: 'serialport',
+6 verbose parsed url   href: 'serialport' }
+7 silly lockFile de62b558-serialport serialport
+8 verbose lock serialport /root/.npm/de62b558-serialport.lock
+9 silly lockFile de62b558-serialport serialport
+10 silly lockFile de62b558-serialport serialport
+11 verbose addNamed [ 'serialport', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 54883da9-serialport serialport@
+14 verbose lock serialport@ /root/.npm/54883da9-serialport.lock
+15 silly addNameRange { name: 'serialport', range: '*', hasData: false }
+16 verbose request where is /serialport
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id a2dc89b74c64c4f1
+19 verbose url raw /serialport
+20 verbose url resolving [ 'https://registry.npmjs.org/', './serialport' ]
+21 verbose url resolved https://registry.npmjs.org/serialport
+22 verbose request where is https://registry.npmjs.org/serialport
+23 info trying registry request attempt 1 at 22:02:11
+24 verbose etag W/"d465652baac41092db059bb2e044c12b"
+25 http GET https://registry.npmjs.org/serialport
+26 http 304 https://registry.npmjs.org/serialport
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Fri, 10 May 2019 21:02:12 GMT',
+27 silly registry.get     connection: 'close',
+27 silly registry.get     'set-cookie':
+27 silly registry.get      [ '__cfduid=d2c0d3ef3dee39eddae7976dc7d6a0acc1557522132; expires=Sat, 09-May-20 21:02:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+27 silly registry.get     'cf-cache-status': 'HIT',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'cf-ray': '4d4eda4d2e60d048-GRU',
+27 silly registry.get     etag: '"d465652baac41092db059bb2e044c12b"',
+27 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 silly registry.get     'last-modified': 'Sat, 27 Apr 2019 14:36:32 GMT',
+27 silly registry.get     vary: 'accept-encoding, accept',
+27 silly registry.get     'x-amz-meta-rev': '372-256352bec15b11c89841eef1e31d6472',
+27 silly registry.get     server: 'cloudflare' } ]
+28 verbose etag https://registry.npmjs.org/serialport from cache
+29 silly addNameRange number 2 { name: 'serialport', range: '*', hasData: true }
+30 silly addNameRange versions [ 'serialport',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.2',
+30 silly addNameRange     '0.2.3',
+30 silly addNameRange     '0.2.4',
+30 silly addNameRange     '0.2.5',
+30 silly addNameRange     '0.2.6',
+30 silly addNameRange     '0.2.7',
+30 silly addNameRange     '0.2.8',
+30 silly addNameRange     '0.2.9',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.6.1',
+30 silly addNameRange     '0.6.2',
+30 silly addNameRange     '0.6.3',
+30 silly addNameRange     '0.6.5',
+30 silly addNameRange     '0.6.6',
+30 silly addNameRange     '0.6.7',
+30 silly addNameRange     '0.7.0',
+30 silly addNameRange     '0.7.1',
+30 silly addNameRange     '0.7.2',
+30 silly addNameRange     '0.7.3',
+30 silly addNameRange     '0.7.4',
+30 silly addNameRange     '0.7.5',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.0.5',
+30 silly addNameRange     '1.0.6',
+30 silly addNameRange     '1.0.7',
+30 silly addNameRange     '1.0.8',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.1.1',
+30 silly addNameRange     '1.1.3',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.2.1',
+30 silly addNameRange     '1.2.2',
+30 silly addNameRange     '1.2.3',
+30 silly addNameRange     '1.2.4',
+30 silly addNameRange     '1.2.5',
+30 silly addNameRange     '1.3.0',
+30 silly addNameRange     '1.3.1',
+30 silly addNameRange     '1.4.0',
+30 silly addNameRange     '1.4.1',
+30 silly addNameRange     '1.4.2',
+30 silly addNameRange     '1.4.5',
+30 silly addNameRange     '1.4.6',
+30 silly addNameRange     '1.4.8',
+30 silly addNameRange     '1.4.9',
+30 silly addNameRange     '1.4.10',
+30 silly addNameRange     '1.5.0',
+30 silly addNameRange     '1.6.1',
+30 silly addNameRange     '1.6.2',
+30 silly addNameRange     '1.6.3',
+30 silly addNameRange     '1.7.0',
+30 silly addNameRange     '1.7.1',
+30 silly addNameRange     '1.7.3',
+30 silly addNameRange     '1.7.4',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '2.0.1',
+30 silly addNameRange     '2.0.2',
+30 silly addNameRange     '2.0.3',
+30 silly addNameRange     '2.0.4',
+30 silly addNameRange     '2.0.5',
+30 silly addNameRange     '2.0.6',
+30 silly addNameRange     '2.0.7-beta1',
+30 silly addNameRange     '2.0.7-beta2',
+30 silly addNameRange     '2.0.7-beta3',
+30 silly addNameRange     '2.0.7-beta4',
+30 silly addNameRange     '2.0.7-beta5',
+30 silly addNameRange     '2.1.0',
+30 silly addNameRange     '2.1.1',
+30 silly addNameRange     '2.1.2',
+30 silly addNameRange     '3.0.0',
+30 silly addNameRange     '3.0.1',
+30 silly addNameRange     '3.1.0',
+30 silly addNameRange     '3.1.1',
+30 silly addNameRange     '3.1.2-beta1',
+30 silly addNameRange     '3.1.2-beta2',
+30 silly addNameRange     '3.1.2-beta3',
+30 silly addNameRange     '3.1.2-beta5',
+30 silly addNameRange     '3.1.2-beta6',
+30 silly addNameRange     '3.1.2-beta7',
+30 silly addNameRange     '3.1.2',
+30 silly addNameRange     '3.2.0-beta1',
+30 silly addNameRange     '4.0.0-beta1',
+30 silly addNameRange     '4.0.0-beta2',
+30 silly addNameRange     '4.0.0-beta3',
+30 silly addNameRange     '4.0.0-beta4',
+30 silly addNameRange     '4.0.0-rc1',
+30 silly addNameRange     '4.0.0',
+30 silly addNameRange     '4.0.1',
+30 silly addNameRange     '5.0.0-beta1',
+30 silly addNameRange     '4.0.2',
+30 silly addNameRange     '4.0.3',
+30 silly addNameRange     '5.0.0-beta2',
+30 silly addNameRange     ... 37 more items ] ]
+31 verbose addNamed [ 'serialport', '7.1.5' ]
+32 verbose addNamed [ '7.1.5', '7.1.5' ]
+33 silly lockFile 7df9544a-serialport-7-1-5 serialport@7.1.5
+34 verbose lock serialport@7.1.5 /root/.npm/7df9544a-serialport-7-1-5.lock
+35 silly lockFile 7df9544a-serialport-7-1-5 serialport@7.1.5
+36 silly lockFile 7df9544a-serialport-7-1-5 serialport@7.1.5
+37 silly lockFile 54883da9-serialport serialport@
+38 silly lockFile 54883da9-serialport serialport@
+39 silly resolved [ { name: 'serialport',
+39 silly resolved     version: '7.1.5',
+39 silly resolved     description: 'Node.js package to access serial ports. Linux, OSX and Windows. Welcome your robotic JavaScript overlords. Better yet, program them!',
+39 silly resolved     main: 'lib',
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'git://github.com/node-serialport/node-serialport.git' },
+39 silly resolved     keywords:
+39 silly resolved      [ 'ccTalk',
+39 silly resolved        'com port',
+39 silly resolved        'data logging',
+39 silly resolved        'hardware',
+39 silly resolved        'iot',
+39 silly resolved        'johnny-five',
+39 silly resolved        'modem',
+39 silly resolved        'nodebots',
+39 silly resolved        'RFID',
+39 silly resolved        'robotics',
+39 silly resolved        'sensor',
+39 silly resolved        'serial port',
+39 silly resolved        'serial',
+39 silly resolved        'serialport',
+39 silly resolved        'sms gateway',
+39 silly resolved        'sms',
+39 silly resolved        'stream',
+39 silly resolved        'tty',
+39 silly resolved        'UART' ],
+39 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+39 silly resolved     dependencies:
+39 silly resolved      { '@serialport/binding-mock': '^2.0.5',
+39 silly resolved        '@serialport/bindings': '^2.0.8',
+39 silly resolved        '@serialport/parser-byte-length': '^2.0.2',
+39 silly resolved        '@serialport/parser-cctalk': '^2.0.2',
+39 silly resolved        '@serialport/parser-delimiter': '^2.0.2',
+39 silly resolved        '@serialport/parser-readline': '^2.0.2',
+39 silly resolved        '@serialport/parser-ready': '^2.0.2',
+39 silly resolved        '@serialport/parser-regex': '^2.0.2',
+39 silly resolved        '@serialport/stream': '^2.0.5',
+39 silly resolved        debug: '^4.1.1' },
+39 silly resolved     engines: { node: '>=6.0.0' },
+39 silly resolved     license: 'MIT',
+39 silly resolved     scripts: { repl: 'node bin/repl.js' },
+39 silly resolved     gitHead: '4c723cc89e454017a28396e934bf7a00946fe866',
+39 silly resolved     bugs:
+39 silly resolved      { url: 'https://github.com/node-serialport/node-serialport/issues' },
+39 silly resolved     homepage: 'https://github.com/node-serialport/node-serialport#readme',
+39 silly resolved     _id: 'serialport@7.1.5',
+39 silly resolved     _nodeVersion: '10.15.3',
+39 silly resolved     _npmVersion: 'lerna/3.13.4/node@v10.15.3+x64 (darwin)',
+39 silly resolved     dist:
+39 silly resolved      { integrity: 'sha512-NplGdqaY+ZL8t3t5egbT+3oqLW4d7WvDT/x1ACxAyWa1fSnx+KTAmlDHeCls39lXwu8voaOr3bPOW4bwM7PdAA==',
+39 silly resolved        shasum: '3395e3cc33c6584731ccce62aaa82b0f6b7e0077',
+39 silly resolved        tarball: 'https://registry.npmjs.org/serialport/-/serialport-7.1.5.tgz',
+39 silly resolved        fileCount: 8,
+39 silly resolved        unpackedSize: 52304,
+39 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcxGjsCRA9TVsSAnZWagAAtcUP/3sRyq0AIu2/9weRGAaD\n+apzWQuRQseSPDD+YFdhWYMHHRjr+saltlCnKrYp89NdqJrQK8kY+l2QPYMj\nS/KL1uxNarzAH7ynPPt0wVQ0BUY9H+B+oio2U0E2vD0MlqnRdnQQP8FOcgwM\n1XZ1YlFZv2yJoB/lcqRkWKcGA3tUkS7ar+KO8ZqhFKf7DgSILH4XcHf7NeDq\ndDDZZqu5oz5tByEE4YUeIkI153ofdD8jSxexgPsnvHzv8PhGLgEnevv0Ob1O\n6IXX9IchvSPeN0N9o8ru5IS/AoSLMlxpH8OGxEEifkbUwEQ1AH7imCYZBQDE\nG6dSipa4LtvPaC+d1MhqT+zJKLlcjg3/OqQYjwzaSHI+tYbVYZODoAhrVqxr\nf+EAfycwx5Y1xG7kwnXXZb4VQAj9f0vjfFL0Zh5zygNt4OyF60YPNQ+OBhCq\nx6xtWBBrqd1r097FWNoW746XAdjGUqmHXqApE52RybMpQT270LS/qNqRIpdn\nSyAStriJfsAz3TBjvR4a5Vizpa0QoB2t1EXn/3/Mnqm9q4T7BPICBDH3PcYU\nYm9/jBTxg2MziZd2LnmuICubFBts8D0tJNUIOzJykO245Lc9gfuL3djIu7pI\nlwaq2bd391y+9fAz/ox4pHPFOCSV8vRx6aF0fu/YnIJVmSrbe9cfUGt624p4\n5Yik\r\n=/yut\r\n-----END PGP SIGNATURE-----\r\n' },
+39 silly resolved     _npmUser: { name: 'reconbot', email: 'wizard@roborooter.com' },
+39 silly resolved     directories: {},
+39 silly resolved     _npmOperationalInternal:
+39 silly resolved      { host: 's3://npm-registry-packages',
+39 silly resolved        tmp: 'tmp/serialport_7.1.5_1556375787566_0.3029591568605077' },
+39 silly resolved     _hasShrinkwrap: false,
+39 silly resolved     _shasum: '3395e3cc33c6584731ccce62aaa82b0f6b7e0077',
+39 silly resolved     _from: 'serialport@',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/serialport/-/serialport-7.1.5.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install serialport@7.1.5 into /balanca
+41 info installOne serialport@7.1.5
+42 verbose node_modules/serialport unbuild
+43 verbose tar unpack /root/.npm/serialport/7.1.5/package.tgz
+44 silly lockFile 423a7eae--balanca-node-modules-serialport tar:///balanca/node_modules/serialport
+45 verbose lock tar:///balanca/node_modules/serialport /root/.npm/423a7eae--balanca-node-modules-serialport.lock
+46 silly lockFile 6b71fd6e-npm-serialport-7-1-5-package-tgz tar:///root/.npm/serialport/7.1.5/package.tgz
+47 verbose lock tar:///root/.npm/serialport/7.1.5/package.tgz /root/.npm/6b71fd6e-npm-serialport-7-1-5-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry .DS_Store
+51 silly gunzTarPerm extractEntry CHANGELOG.md
+52 silly gunzTarPerm extractEntry LICENSE
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry test.js
+55 silly gunzTarPerm extractEntry lib/index.js
+56 silly gunzTarPerm extractEntry lib/parsers.js
+57 silly lockFile 423a7eae--balanca-node-modules-serialport tar:///balanca/node_modules/serialport
+58 silly lockFile 423a7eae--balanca-node-modules-serialport tar:///balanca/node_modules/serialport
+59 silly lockFile 6b71fd6e-npm-serialport-7-1-5-package-tgz tar:///root/.npm/serialport/7.1.5/package.tgz
+60 silly lockFile 6b71fd6e-npm-serialport-7-1-5-package-tgz tar:///root/.npm/serialport/7.1.5/package.tgz
+61 info preinstall serialport@7.1.5
+62 verbose readDependencies using package.json deps
+63 verbose readDependencies using package.json deps
+64 verbose cache add [ '@serialport/parser-cctalk@^2.0.2', null ]
+65 verbose cache add name=undefined spec="@serialport/parser-cctalk@^2.0.2" args=["@serialport/parser-cctalk@^2.0.2",null]
+66 verbose parsed url Url {
+66 verbose parsed url   protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '@serialport/parser-cctalk@%5E2.0.2',
+66 verbose parsed url   path: '@serialport/parser-cctalk@%5E2.0.2',
+66 verbose parsed url   href: '@serialport/parser-cctalk@%5E2.0.2' }
+67 verbose cache add [ '@serialport/parser-delimiter@^2.0.2', null ]
+68 verbose cache add name=undefined spec="@serialport/parser-delimiter@^2.0.2" args=["@serialport/parser-delimiter@^2.0.2",null]
+69 verbose parsed url Url {
+69 verbose parsed url   protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: '@serialport/parser-delimiter@%5E2.0.2',
+69 verbose parsed url   path: '@serialport/parser-delimiter@%5E2.0.2',
+69 verbose parsed url   href: '@serialport/parser-delimiter@%5E2.0.2' }
+70 verbose cache add [ '@serialport/parser-readline@^2.0.2', null ]
+71 verbose cache add name=undefined spec="@serialport/parser-readline@^2.0.2" args=["@serialport/parser-readline@^2.0.2",null]
+72 verbose parsed url Url {
+72 verbose parsed url   protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: '@serialport/parser-readline@%5E2.0.2',
+72 verbose parsed url   path: '@serialport/parser-readline@%5E2.0.2',
+72 verbose parsed url   href: '@serialport/parser-readline@%5E2.0.2' }
+73 verbose cache add [ '@serialport/parser-ready@^2.0.2', null ]
+74 verbose cache add name=undefined spec="@serialport/parser-ready@^2.0.2" args=["@serialport/parser-ready@^2.0.2",null]
+75 verbose parsed url Url {
+75 verbose parsed url   protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '@serialport/parser-ready@%5E2.0.2',
+75 verbose parsed url   path: '@serialport/parser-ready@%5E2.0.2',
+75 verbose parsed url   href: '@serialport/parser-ready@%5E2.0.2' }
+76 verbose cache add name="" spec="serialport/parser-cctalk@^2.0.2" args=["","serialport/parser-cctalk@^2.0.2"]
+77 verbose parsed url Url {
+77 verbose parsed url   protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'serialport/parser-cctalk@%5E2.0.2',
+77 verbose parsed url   path: 'serialport/parser-cctalk@%5E2.0.2',
+77 verbose parsed url   href: 'serialport/parser-cctalk@%5E2.0.2' }
+78 verbose cache add name="" spec="serialport/parser-delimiter@^2.0.2" args=["","serialport/parser-delimiter@^2.0.2"]
+79 verbose parsed url Url {
+79 verbose parsed url   protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: 'serialport/parser-delimiter@%5E2.0.2',
+79 verbose parsed url   path: 'serialport/parser-delimiter@%5E2.0.2',
+79 verbose parsed url   href: 'serialport/parser-delimiter@%5E2.0.2' }
+80 verbose cache add name="" spec="serialport/parser-readline@^2.0.2" args=["","serialport/parser-readline@^2.0.2"]
+81 verbose parsed url Url {
+81 verbose parsed url   protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: 'serialport/parser-readline@%5E2.0.2',
+81 verbose parsed url   path: 'serialport/parser-readline@%5E2.0.2',
+81 verbose parsed url   href: 'serialport/parser-readline@%5E2.0.2' }
+82 verbose cache add name="" spec="serialport/parser-ready@^2.0.2" args=["","serialport/parser-ready@^2.0.2"]
+83 verbose parsed url Url {
+83 verbose parsed url   protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'serialport/parser-ready@%5E2.0.2',
+83 verbose parsed url   path: 'serialport/parser-ready@%5E2.0.2',
+83 verbose parsed url   href: 'serialport/parser-ready@%5E2.0.2' }
+84 verbose cache add [ '@serialport/parser-regex@^2.0.2', null ]
+85 verbose cache add name=undefined spec="@serialport/parser-regex@^2.0.2" args=["@serialport/parser-regex@^2.0.2",null]
+86 verbose parsed url Url {
+86 verbose parsed url   protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: '@serialport/parser-regex@%5E2.0.2',
+86 verbose parsed url   path: '@serialport/parser-regex@%5E2.0.2',
+86 verbose parsed url   href: '@serialport/parser-regex@%5E2.0.2' }
+87 verbose cache add [ '@serialport/stream@^2.0.5', null ]
+88 verbose cache add name=undefined spec="@serialport/stream@^2.0.5" args=["@serialport/stream@^2.0.5",null]
+89 verbose parsed url Url {
+89 verbose parsed url   protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '@serialport/stream@%5E2.0.5',
+89 verbose parsed url   path: '@serialport/stream@%5E2.0.5',
+89 verbose parsed url   href: '@serialport/stream@%5E2.0.5' }
+90 verbose cache add [ 'debug@^4.1.1', null ]
+91 verbose cache add name=undefined spec="debug@^4.1.1" args=["debug@^4.1.1",null]
+92 verbose parsed url Url {
+92 verbose parsed url   protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'debug@%5E4.1.1',
+92 verbose parsed url   path: 'debug@%5E4.1.1',
+92 verbose parsed url   href: 'debug@%5E4.1.1' }
+93 verbose cache add [ '@serialport/binding-mock@^2.0.5', null ]
+94 verbose cache add name=undefined spec="@serialport/binding-mock@^2.0.5" args=["@serialport/binding-mock@^2.0.5",null]
+95 verbose parsed url Url {
+95 verbose parsed url   protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: '@serialport/binding-mock@%5E2.0.5',
+95 verbose parsed url   path: '@serialport/binding-mock@%5E2.0.5',
+95 verbose parsed url   href: '@serialport/binding-mock@%5E2.0.5' }
+96 verbose cache add [ '@serialport/bindings@^2.0.8', null ]
+97 verbose cache add name=undefined spec="@serialport/bindings@^2.0.8" args=["@serialport/bindings@^2.0.8",null]
+98 verbose parsed url Url {
+98 verbose parsed url   protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: '@serialport/bindings@%5E2.0.8',
+98 verbose parsed url   path: '@serialport/bindings@%5E2.0.8',
+98 verbose parsed url   href: '@serialport/bindings@%5E2.0.8' }
+99 verbose cache add [ '@serialport/parser-byte-length@^2.0.2', null ]
+100 verbose cache add name=undefined spec="@serialport/parser-byte-length@^2.0.2" args=["@serialport/parser-byte-length@^2.0.2",null]
+101 verbose parsed url Url {
+101 verbose parsed url   protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: '@serialport/parser-byte-length@%5E2.0.2',
+101 verbose parsed url   path: '@serialport/parser-byte-length@%5E2.0.2',
+101 verbose parsed url   href: '@serialport/parser-byte-length@%5E2.0.2' }
+102 verbose cache add name="serialport/parser-cctalk" spec="^2.0.2" args=["serialport/parser-cctalk","^2.0.2"]
+103 verbose parsed url Url {
+103 verbose parsed url   protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: '%5E2.0.2',
+103 verbose parsed url   path: '%5E2.0.2',
+103 verbose parsed url   href: '%5E2.0.2' }
+104 verbose addNamed [ 'serialport/parser-cctalk', '^2.0.2' ]
+105 verbose addNamed [ null, '>=2.0.2 <3.0.0' ]
+106 silly lockFile 19c439e7-serialport-parser-cctalk-2-0-2 serialport/parser-cctalk@^2.0.2
+107 verbose lock serialport/parser-cctalk@^2.0.2 /root/.npm/19c439e7-serialport-parser-cctalk-2-0-2.lock
+108 verbose cache add name="serialport/parser-delimiter" spec="^2.0.2" args=["serialport/parser-delimiter","^2.0.2"]
+109 verbose parsed url Url {
+109 verbose parsed url   protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: '%5E2.0.2',
+109 verbose parsed url   path: '%5E2.0.2',
+109 verbose parsed url   href: '%5E2.0.2' }
+110 verbose addNamed [ 'serialport/parser-delimiter', '^2.0.2' ]
+111 verbose addNamed [ null, '>=2.0.2 <3.0.0' ]
+112 silly lockFile 582ac9e3-erialport-parser-delimiter-2-0-2 serialport/parser-delimiter@^2.0.2
+113 verbose lock serialport/parser-delimiter@^2.0.2 /root/.npm/582ac9e3-erialport-parser-delimiter-2-0-2.lock
+114 verbose cache add name="serialport/parser-readline" spec="^2.0.2" args=["serialport/parser-readline","^2.0.2"]
+115 verbose parsed url Url {
+115 verbose parsed url   protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '%5E2.0.2',
+115 verbose parsed url   path: '%5E2.0.2',
+115 verbose parsed url   href: '%5E2.0.2' }
+116 verbose addNamed [ 'serialport/parser-readline', '^2.0.2' ]
+117 verbose addNamed [ null, '>=2.0.2 <3.0.0' ]
+118 silly lockFile 4111c3f2-serialport-parser-readline-2-0-2 serialport/parser-readline@^2.0.2
+119 verbose lock serialport/parser-readline@^2.0.2 /root/.npm/4111c3f2-serialport-parser-readline-2-0-2.lock
+120 verbose cache add name="serialport/parser-ready" spec="^2.0.2" args=["serialport/parser-ready","^2.0.2"]
+121 verbose parsed url Url {
+121 verbose parsed url   protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: '%5E2.0.2',
+121 verbose parsed url   path: '%5E2.0.2',
+121 verbose parsed url   href: '%5E2.0.2' }
+122 verbose addNamed [ 'serialport/parser-ready', '^2.0.2' ]
+123 verbose addNamed [ null, '>=2.0.2 <3.0.0' ]
+124 silly lockFile cebb05a7-serialport-parser-ready-2-0-2 serialport/parser-ready@^2.0.2
+125 verbose lock serialport/parser-ready@^2.0.2 /root/.npm/cebb05a7-serialport-parser-ready-2-0-2.lock
+126 verbose cache add name="" spec="serialport/parser-regex@^2.0.2" args=["","serialport/parser-regex@^2.0.2"]
+127 verbose parsed url Url {
+127 verbose parsed url   protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'serialport/parser-regex@%5E2.0.2',
+127 verbose parsed url   path: 'serialport/parser-regex@%5E2.0.2',
+127 verbose parsed url   href: 'serialport/parser-regex@%5E2.0.2' }
+128 verbose cache add name="" spec="serialport/stream@^2.0.5" args=["","serialport/stream@^2.0.5"]
+129 verbose parsed url Url {
+129 verbose parsed url   protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: 'serialport/stream@%5E2.0.5',
+129 verbose parsed url   path: 'serialport/stream@%5E2.0.5',
+129 verbose parsed url   href: 'serialport/stream@%5E2.0.5' }
+130 verbose cache add name="debug" spec="^4.1.1" args=["debug","^4.1.1"]
+131 verbose parsed url Url {
+131 verbose parsed url   protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '%5E4.1.1',
+131 verbose parsed url   path: '%5E4.1.1',
+131 verbose parsed url   href: '%5E4.1.1' }
+132 verbose addNamed [ 'debug', '^4.1.1' ]
+133 verbose addNamed [ null, '>=4.1.1 <5.0.0' ]
+134 silly lockFile a9221a8c-debug-4-1-1 debug@^4.1.1
+135 verbose lock debug@^4.1.1 /root/.npm/a9221a8c-debug-4-1-1.lock
+136 verbose cache add name="" spec="serialport/binding-mock@^2.0.5" args=["","serialport/binding-mock@^2.0.5"]
+137 verbose parsed url Url {
+137 verbose parsed url   protocol: null,
+137 verbose parsed url   slashes: null,
+137 verbose parsed url   auth: null,
+137 verbose parsed url   host: null,
+137 verbose parsed url   port: null,
+137 verbose parsed url   hostname: null,
+137 verbose parsed url   hash: null,
+137 verbose parsed url   search: null,
+137 verbose parsed url   query: null,
+137 verbose parsed url   pathname: 'serialport/binding-mock@%5E2.0.5',
+137 verbose parsed url   path: 'serialport/binding-mock@%5E2.0.5',
+137 verbose parsed url   href: 'serialport/binding-mock@%5E2.0.5' }
+138 verbose cache add name="" spec="serialport/bindings@^2.0.8" args=["","serialport/bindings@^2.0.8"]
+139 verbose parsed url Url {
+139 verbose parsed url   protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'serialport/bindings@%5E2.0.8',
+139 verbose parsed url   path: 'serialport/bindings@%5E2.0.8',
+139 verbose parsed url   href: 'serialport/bindings@%5E2.0.8' }
+140 verbose cache add name="" spec="serialport/parser-byte-length@^2.0.2" args=["","serialport/parser-byte-length@^2.0.2"]
+141 verbose parsed url Url {
+141 verbose parsed url   protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: 'serialport/parser-byte-length@%5E2.0.2',
+141 verbose parsed url   path: 'serialport/parser-byte-length@%5E2.0.2',
+141 verbose parsed url   href: 'serialport/parser-byte-length@%5E2.0.2' }
+142 verbose cache add name="serialport/parser-regex" spec="^2.0.2" args=["serialport/parser-regex","^2.0.2"]
+143 verbose parsed url Url {
+143 verbose parsed url   protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: '%5E2.0.2',
+143 verbose parsed url   path: '%5E2.0.2',
+143 verbose parsed url   href: '%5E2.0.2' }
+144 verbose addNamed [ 'serialport/parser-regex', '^2.0.2' ]
+145 verbose addNamed [ null, '>=2.0.2 <3.0.0' ]
+146 silly lockFile 2679f689-serialport-parser-regex-2-0-2 serialport/parser-regex@^2.0.2
+147 verbose lock serialport/parser-regex@^2.0.2 /root/.npm/2679f689-serialport-parser-regex-2-0-2.lock
+148 verbose cache add name="serialport/stream" spec="^2.0.5" args=["serialport/stream","^2.0.5"]
+149 verbose parsed url Url {
+149 verbose parsed url   protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '%5E2.0.5',
+149 verbose parsed url   path: '%5E2.0.5',
+149 verbose parsed url   href: '%5E2.0.5' }
+150 verbose addNamed [ 'serialport/stream', '^2.0.5' ]
+151 verbose addNamed [ null, '>=2.0.5 <3.0.0' ]
+152 silly lockFile ef4fa130-serialport-stream-2-0-5 serialport/stream@^2.0.5
+153 verbose lock serialport/stream@^2.0.5 /root/.npm/ef4fa130-serialport-stream-2-0-5.lock
+154 verbose cache add name="serialport/binding-mock" spec="^2.0.5" args=["serialport/binding-mock","^2.0.5"]
+155 verbose parsed url Url {
+155 verbose parsed url   protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: '%5E2.0.5',
+155 verbose parsed url   path: '%5E2.0.5',
+155 verbose parsed url   href: '%5E2.0.5' }
+156 verbose addNamed [ 'serialport/binding-mock', '^2.0.5' ]
+157 verbose addNamed [ null, '>=2.0.5 <3.0.0' ]
+158 silly lockFile 1adbfe7b-serialport-binding-mock-2-0-5 serialport/binding-mock@^2.0.5
+159 verbose lock serialport/binding-mock@^2.0.5 /root/.npm/1adbfe7b-serialport-binding-mock-2-0-5.lock
+160 verbose cache add name="serialport/bindings" spec="^2.0.8" args=["serialport/bindings","^2.0.8"]
+161 verbose parsed url Url {
+161 verbose parsed url   protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: '%5E2.0.8',
+161 verbose parsed url   path: '%5E2.0.8',
+161 verbose parsed url   href: '%5E2.0.8' }
+162 verbose addNamed [ 'serialport/bindings', '^2.0.8' ]
+163 verbose addNamed [ null, '>=2.0.8 <3.0.0' ]
+164 silly lockFile f7aaf005-serialport-bindings-2-0-8 serialport/bindings@^2.0.8
+165 verbose lock serialport/bindings@^2.0.8 /root/.npm/f7aaf005-serialport-bindings-2-0-8.lock
+166 verbose cache add name="serialport/parser-byte-length" spec="^2.0.2" args=["serialport/parser-byte-length","^2.0.2"]
+167 verbose parsed url Url {
+167 verbose parsed url   protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: '%5E2.0.2',
+167 verbose parsed url   path: '%5E2.0.2',
+167 verbose parsed url   href: '%5E2.0.2' }
+168 verbose addNamed [ 'serialport/parser-byte-length', '^2.0.2' ]
+169 verbose addNamed [ null, '>=2.0.2 <3.0.0' ]
+170 silly lockFile e14fcc3a-ialport-parser-byte-length-2-0-2 serialport/parser-byte-length@^2.0.2
+171 verbose lock serialport/parser-byte-length@^2.0.2 /root/.npm/e14fcc3a-ialport-parser-byte-length-2-0-2.lock
+172 silly addNameRange { name: 'serialport/parser-cctalk',
+172 silly addNameRange   range: '>=2.0.2 <3.0.0',
+172 silly addNameRange   hasData: false }
+173 silly addNameRange { name: 'serialport/parser-delimiter',
+173 silly addNameRange   range: '>=2.0.2 <3.0.0',
+173 silly addNameRange   hasData: false }
+174 silly addNameRange { name: 'serialport/parser-readline',
+174 silly addNameRange   range: '>=2.0.2 <3.0.0',
+174 silly addNameRange   hasData: false }
+175 silly addNameRange { name: 'serialport/parser-ready',
+175 silly addNameRange   range: '>=2.0.2 <3.0.0',
+175 silly addNameRange   hasData: false }
+176 silly addNameRange { name: 'debug', range: '>=4.1.1 <5.0.0', hasData: false }
+177 silly addNameRange { name: 'serialport/parser-regex',
+177 silly addNameRange   range: '>=2.0.2 <3.0.0',
+177 silly addNameRange   hasData: false }
+178 silly addNameRange { name: 'serialport/stream',
+178 silly addNameRange   range: '>=2.0.5 <3.0.0',
+178 silly addNameRange   hasData: false }
+179 silly addNameRange { name: 'serialport/binding-mock',
+179 silly addNameRange   range: '>=2.0.5 <3.0.0',
+179 silly addNameRange   hasData: false }
+180 silly addNameRange { name: 'serialport/bindings',
+180 silly addNameRange   range: '>=2.0.8 <3.0.0',
+180 silly addNameRange   hasData: false }
+181 silly addNameRange { name: 'serialport/parser-byte-length',
+181 silly addNameRange   range: '>=2.0.2 <3.0.0',
+181 silly addNameRange   hasData: false }
+182 verbose request where is /serialport/parser-cctalk
+183 verbose request registry https://registry.npmjs.org/
+184 verbose url raw /serialport/parser-cctalk
+185 verbose url resolving [ 'https://registry.npmjs.org/', './serialport/parser-cctalk' ]
+186 verbose url resolved https://registry.npmjs.org/serialport/parser-cctalk
+187 verbose request where is https://registry.npmjs.org/serialport/parser-cctalk
+188 info trying registry request attempt 1 at 22:02:12
+189 http GET https://registry.npmjs.org/serialport/parser-cctalk
+190 verbose request where is /serialport/parser-delimiter
+191 verbose request registry https://registry.npmjs.org/
+192 verbose url raw /serialport/parser-delimiter
+193 verbose url resolving [ 'https://registry.npmjs.org/',
+193 verbose url resolving   './serialport/parser-delimiter' ]
+194 verbose url resolved https://registry.npmjs.org/serialport/parser-delimiter
+195 verbose request where is https://registry.npmjs.org/serialport/parser-delimiter
+196 info trying registry request attempt 1 at 22:02:12
+197 http GET https://registry.npmjs.org/serialport/parser-delimiter
+198 verbose request where is /serialport/parser-readline
+199 verbose request registry https://registry.npmjs.org/
+200 verbose url raw /serialport/parser-readline
+201 verbose url resolving [ 'https://registry.npmjs.org/',
+201 verbose url resolving   './serialport/parser-readline' ]
+202 verbose url resolved https://registry.npmjs.org/serialport/parser-readline
+203 verbose request where is https://registry.npmjs.org/serialport/parser-readline
+204 info trying registry request attempt 1 at 22:02:12
+205 http GET https://registry.npmjs.org/serialport/parser-readline
+206 verbose request where is /serialport/parser-ready
+207 verbose request registry https://registry.npmjs.org/
+208 verbose url raw /serialport/parser-ready
+209 verbose url resolving [ 'https://registry.npmjs.org/', './serialport/parser-ready' ]
+210 verbose url resolved https://registry.npmjs.org/serialport/parser-ready
+211 verbose request where is https://registry.npmjs.org/serialport/parser-ready
+212 info trying registry request attempt 1 at 22:02:12
+213 http GET https://registry.npmjs.org/serialport/parser-ready
+214 verbose request where is /serialport/parser-regex
+215 verbose request registry https://registry.npmjs.org/
+216 verbose url raw /serialport/parser-regex
+217 verbose url resolving [ 'https://registry.npmjs.org/', './serialport/parser-regex' ]
+218 verbose url resolved https://registry.npmjs.org/serialport/parser-regex
+219 verbose request where is https://registry.npmjs.org/serialport/parser-regex
+220 info trying registry request attempt 1 at 22:02:12
+221 http GET https://registry.npmjs.org/serialport/parser-regex
+222 verbose request where is /debug
+223 verbose request registry https://registry.npmjs.org/
+224 verbose url raw /debug
+225 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+226 verbose url resolved https://registry.npmjs.org/debug
+227 verbose request where is https://registry.npmjs.org/debug
+228 info trying registry request attempt 1 at 22:02:12
+229 verbose etag W/"1565ffa7c9ca5ce9f0eda63fa397cdbb"
+230 http GET https://registry.npmjs.org/debug
+231 verbose request where is /serialport/stream
+232 verbose request registry https://registry.npmjs.org/
+233 verbose url raw /serialport/stream
+234 verbose url resolving [ 'https://registry.npmjs.org/', './serialport/stream' ]
+235 verbose url resolved https://registry.npmjs.org/serialport/stream
+236 verbose request where is https://registry.npmjs.org/serialport/stream
+237 info trying registry request attempt 1 at 22:02:12
+238 http GET https://registry.npmjs.org/serialport/stream
+239 verbose request where is /serialport/binding-mock
+240 verbose request registry https://registry.npmjs.org/
+241 verbose url raw /serialport/binding-mock
+242 verbose url resolving [ 'https://registry.npmjs.org/', './serialport/binding-mock' ]
+243 verbose url resolved https://registry.npmjs.org/serialport/binding-mock
+244 verbose request where is https://registry.npmjs.org/serialport/binding-mock
+245 info trying registry request attempt 1 at 22:02:12
+246 http GET https://registry.npmjs.org/serialport/binding-mock
+247 verbose request where is /serialport/bindings
+248 verbose request registry https://registry.npmjs.org/
+249 verbose url raw /serialport/bindings
+250 verbose url resolving [ 'https://registry.npmjs.org/', './serialport/bindings' ]
+251 verbose url resolved https://registry.npmjs.org/serialport/bindings
+252 verbose request where is https://registry.npmjs.org/serialport/bindings
+253 info trying registry request attempt 1 at 22:02:12
+254 http GET https://registry.npmjs.org/serialport/bindings
+255 verbose request where is /serialport/parser-byte-length
+256 verbose request registry https://registry.npmjs.org/
+257 verbose url raw /serialport/parser-byte-length
+258 verbose url resolving [ 'https://registry.npmjs.org/',
+258 verbose url resolving   './serialport/parser-byte-length' ]
+259 verbose url resolved https://registry.npmjs.org/serialport/parser-byte-length
+260 verbose request where is https://registry.npmjs.org/serialport/parser-byte-length
+261 info trying registry request attempt 1 at 22:02:12
+262 http GET https://registry.npmjs.org/serialport/parser-byte-length
+263 http 304 https://registry.npmjs.org/debug
+264 silly registry.get cb [ 304,
+264 silly registry.get   { date: 'Fri, 10 May 2019 21:02:12 GMT',
+264 silly registry.get     connection: 'close',
+264 silly registry.get     'set-cookie':
+264 silly registry.get      [ '__cfduid=d8b40ee5301b9623615797e475958d1791557522132; expires=Sat, 09-May-20 21:02:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+264 silly registry.get     'cf-cache-status': 'HIT',
+264 silly registry.get     'cache-control': 'max-age=300',
+264 silly registry.get     'cf-ray': '4d4eda513986d024-GRU',
+264 silly registry.get     etag: '"1565ffa7c9ca5ce9f0eda63fa397cdbb"',
+264 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+264 silly registry.get     'last-modified': 'Sun, 05 May 2019 08:25:09 GMT',
+264 silly registry.get     vary: 'accept-encoding, accept',
+264 silly registry.get     'x-amz-meta-rev': '903-9586012d9f175d3d08c57e4354fe1884',
+264 silly registry.get     server: 'cloudflare' } ]
+265 verbose etag https://registry.npmjs.org/debug from cache
+266 silly addNameRange number 2 { name: 'debug', range: '>=4.1.1 <5.0.0', hasData: true }
+267 silly addNameRange versions [ 'debug',
+267 silly addNameRange   [ '0.0.1',
+267 silly addNameRange     '0.1.0',
+267 silly addNameRange     '0.2.0',
+267 silly addNameRange     '0.3.0',
+267 silly addNameRange     '0.4.0',
+267 silly addNameRange     '0.4.1',
+267 silly addNameRange     '0.5.0',
+267 silly addNameRange     '0.6.0',
+267 silly addNameRange     '0.7.0',
+267 silly addNameRange     '0.7.1',
+267 silly addNameRange     '0.7.2',
+267 silly addNameRange     '0.7.3',
+267 silly addNameRange     '0.7.4',
+267 silly addNameRange     '0.8.0',
+267 silly addNameRange     '0.8.1',
+267 silly addNameRange     '1.0.0',
+267 silly addNameRange     '1.0.1',
+267 silly addNameRange     '1.0.2',
+267 silly addNameRange     '1.0.3',
+267 silly addNameRange     '1.0.4',
+267 silly addNameRange     '2.0.0',
+267 silly addNameRange     '2.1.0',
+267 silly addNameRange     '2.1.1',
+267 silly addNameRange     '2.1.2',
+267 silly addNameRange     '2.1.3',
+267 silly addNameRange     '2.2.0',
+267 silly addNameRange     '2.3.0',
+267 silly addNameRange     '2.3.1',
+267 silly addNameRange     '2.3.2',
+267 silly addNameRange     '2.3.3',
+267 silly addNameRange     '2.4.0',
+267 silly addNameRange     '2.4.1',
+267 silly addNameRange     '2.4.2',
+267 silly addNameRange     '2.4.3',
+267 silly addNameRange     '2.4.4',
+267 silly addNameRange     '2.4.5',
+267 silly addNameRange     '2.5.0',
+267 silly addNameRange     '2.5.1',
+267 silly addNameRange     '2.5.2',
+267 silly addNameRange     '2.6.0',
+267 silly addNameRange     '2.6.1',
+267 silly addNameRange     '2.6.2',
+267 silly addNameRange     '2.6.3',
+267 silly addNameRange     '2.6.4',
+267 silly addNameRange     '2.6.5',
+267 silly addNameRange     '2.6.6',
+267 silly addNameRange     '2.6.7',
+267 silly addNameRange     '2.6.8',
+267 silly addNameRange     '1.0.5',
+267 silly addNameRange     '3.0.0',
+267 silly addNameRange     '3.0.1',
+267 silly addNameRange     '2.6.9',
+267 silly addNameRange     '3.1.0',
+267 silly addNameRange     '3.2.0',
+267 silly addNameRange     '3.2.1',
+267 silly addNameRange     '3.2.2',
+267 silly addNameRange     '3.2.3',
+267 silly addNameRange     '4.0.0',
+267 silly addNameRange     '3.2.4',
+267 silly addNameRange     '3.2.5',
+267 silly addNameRange     '4.0.1',
+267 silly addNameRange     '4.1.0',
+267 silly addNameRange     '3.2.6',
+267 silly addNameRange     '4.1.1' ] ]
+268 verbose addNamed [ 'debug', '4.1.1' ]
+269 verbose addNamed [ '4.1.1', '4.1.1' ]
+270 silly lockFile cfdf5a13-debug-4-1-1 debug@4.1.1
+271 verbose lock debug@4.1.1 /root/.npm/cfdf5a13-debug-4-1-1.lock
+272 silly lockFile cfdf5a13-debug-4-1-1 debug@4.1.1
+273 silly lockFile cfdf5a13-debug-4-1-1 debug@4.1.1
+274 silly lockFile a9221a8c-debug-4-1-1 debug@^4.1.1
+275 silly lockFile a9221a8c-debug-4-1-1 debug@^4.1.1
+276 http 405 https://registry.npmjs.org/serialport/parser-cctalk
+277 silly registry.get cb [ 405,
+277 silly registry.get   { date: 'Fri, 10 May 2019 21:02:12 GMT',
+277 silly registry.get     'content-type': 'application/json',
+277 silly registry.get     'content-length': '63',
+277 silly registry.get     connection: 'close',
+277 silly registry.get     'set-cookie':
+277 silly registry.get      [ '__cfduid=debcd4c5dec55ae6125031c2fa0f2931d1557522132; expires=Sat, 09-May-20 21:02:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+277 silly registry.get     'cf-ray': '4d4eda512e24cff8-GRU',
+277 silly registry.get     allow: 'PUT',
+277 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+277 silly registry.get     vary: 'Accept-Encoding',
+277 silly registry.get     server: 'cloudflare' } ]
+278 http 405 https://registry.npmjs.org/serialport/parser-readline
+279 silly registry.get cb [ 405,
+279 silly registry.get   { date: 'Fri, 10 May 2019 21:02:12 GMT',
+279 silly registry.get     'content-type': 'application/json',
+279 silly registry.get     'content-length': '63',
+279 silly registry.get     connection: 'close',
+279 silly registry.get     'set-cookie':
+279 silly registry.get      [ '__cfduid=dac265f8b0443727261eae96466ff66711557522132; expires=Sat, 09-May-20 21:02:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+279 silly registry.get     'cf-ray': '4d4eda513eef4a52-GRU',
+279 silly registry.get     allow: 'PUT',
+279 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+279 silly registry.get     vary: 'Accept-Encoding',
+279 silly registry.get     server: 'cloudflare' } ]
+280 http 405 https://registry.npmjs.org/serialport/parser-delimiter
+281 silly registry.get cb [ 405,
+281 silly registry.get   { date: 'Fri, 10 May 2019 21:02:12 GMT',
+281 silly registry.get     'content-type': 'application/json',
+281 silly registry.get     'content-length': '63',
+281 silly registry.get     connection: 'close',
+281 silly registry.get     'set-cookie':
+281 silly registry.get      [ '__cfduid=d8ada32c253a027c614ed7f038ddbb2bf1557522132; expires=Sat, 09-May-20 21:02:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+281 silly registry.get     'cf-ray': '4d4eda5129f24bf7-GRU',
+281 silly registry.get     allow: 'PUT',
+281 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+281 silly registry.get     vary: 'Accept-Encoding',
+281 silly registry.get     server: 'cloudflare' } ]
+282 http 405 https://registry.npmjs.org/serialport/parser-byte-length
+283 silly registry.get cb [ 405,
+283 silly registry.get   { date: 'Fri, 10 May 2019 21:02:12 GMT',
+283 silly registry.get     'content-type': 'application/json',
+283 silly registry.get     'content-length': '63',
+283 silly registry.get     connection: 'close',
+283 silly registry.get     'set-cookie':
+283 silly registry.get      [ '__cfduid=df56f50d4c642d08eab2f2d9778b07c981557522132; expires=Sat, 09-May-20 21:02:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+283 silly registry.get     'cf-ray': '4d4eda5149484c58-GRU',
+283 silly registry.get     allow: 'PUT',
+283 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+283 silly registry.get     vary: 'Accept-Encoding',
+283 silly registry.get     server: 'cloudflare' } ]
+284 silly lockFile 4111c3f2-serialport-parser-readline-2-0-2 serialport/parser-readline@^2.0.2
+285 silly lockFile 4111c3f2-serialport-parser-readline-2-0-2 serialport/parser-readline@^2.0.2
+286 silly lockFile 582ac9e3-erialport-parser-delimiter-2-0-2 serialport/parser-delimiter@^2.0.2
+287 silly lockFile 582ac9e3-erialport-parser-delimiter-2-0-2 serialport/parser-delimiter@^2.0.2
+288 silly lockFile 19c439e7-serialport-parser-cctalk-2-0-2 serialport/parser-cctalk@^2.0.2
+289 silly lockFile 19c439e7-serialport-parser-cctalk-2-0-2 serialport/parser-cctalk@^2.0.2
+290 silly lockFile e14fcc3a-ialport-parser-byte-length-2-0-2 serialport/parser-byte-length@^2.0.2
+291 silly lockFile e14fcc3a-ialport-parser-byte-length-2-0-2 serialport/parser-byte-length@^2.0.2
+292 verbose about to build /balanca/node_modules/serialport
+293 verbose node_modules/serialport unbuild
+294 info preuninstall serialport@7.1.5
+295 http 405 https://registry.npmjs.org/serialport/parser-regex
+296 silly registry.get cb [ 405,
+296 silly registry.get   { date: 'Fri, 10 May 2019 21:02:12 GMT',
+296 silly registry.get     'content-type': 'application/json',
+296 silly registry.get     'content-length': '63',
+296 silly registry.get     connection: 'close',
+296 silly registry.get     'set-cookie':
+296 silly registry.get      [ '__cfduid=d51102399063cdcc4a14f8877c61d524f1557522132; expires=Sat, 09-May-20 21:02:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+296 silly registry.get     'cf-ray': '4d4eda513e334b43-GRU',
+296 silly registry.get     allow: 'PUT',
+296 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+296 silly registry.get     vary: 'Accept-Encoding',
+296 silly registry.get     server: 'cloudflare' } ]
+297 info uninstall serialport@7.1.5
+298 verbose true,/balanca/node_modules,/balanca/node_modules unbuild serialport@7.1.5
+299 info postuninstall serialport@7.1.5
+300 silly lockFile 2679f689-serialport-parser-regex-2-0-2 serialport/parser-regex@^2.0.2
+301 silly lockFile 2679f689-serialport-parser-regex-2-0-2 serialport/parser-regex@^2.0.2
+302 error Error: Method Not Allowed
+302 error     at errorResponse (/usr/share/npm/lib/cache/add-named.js:260:10)
+302 error     at /usr/share/npm/lib/cache/add-named.js:203:12
+302 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+302 error     at FSReqWrap.oncomplete (fs.js:135:15)
+303 error If you need help, you may report this *entire* log,
+303 error including the npm and node versions, at:
+303 error     <http://github.com/npm/npm/issues>
+304 error System Linux 4.14.98-v7+
+305 error command "/usr/bin/node" "/usr/bin/npm" "install" "serialport"
+306 error cwd /balanca
+307 error node -v v8.11.1
+308 error npm -v 1.4.21
+309 error code E405
+310 verbose exit [ 1, true ]

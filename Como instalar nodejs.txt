@@ -1,0 +1,5 @@
+apt-get upgrade
+apt-get update
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+apt-get install -y nodejs
+npx @serialport/list
